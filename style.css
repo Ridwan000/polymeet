@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+.icon{
+    position: relative;
+    top: 6px;
+    color: #667085;
+    font-size: 30px
+    ;
+}
+.buttonone{
+    width:11.5rem;
+}
+
+@media only screen and  (max-width: 768px) {
+    .cardtwo{
+        width: auto;
+      margin-bottom: 3rem;
+       padding-top: 3px;
+       padding-bottom: 3px;
+    }
+
+    .try{
+        width: auto;
+        
+    }
+
+    
+}
+@media only screen and (min-width: 790px) {
+    .cardtwo{
+        
+        display: block;
+        width: auto;
+
+    }
+
+
+}
+
+@media only screen and (max-width:450px) {
+    .oops {
+       
+       padding: 7px 0;
+    }
+
+    .buttonone{
+        
+
+        width: 10rem;
+        
+    }
+    .navbar-nav{
+        
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+    }
+     .home{
+      
+        margin-right: 3rem;
+    }
+}
+@media only screen and (max-width:370px) {
+    .oops{
+        display: flex;
+      
+    }
+    .buttonone{
+        
+
+        width: 9rem;
+        
+    }
+}
